@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppGuiaEtec.Inicial">
+             x:Class="AppGuiaEtec.Inicial"
+             Title="Curso de Desenvolvimento de Sistemas">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <ScrollView>
+        <StackLayout Padding="10">
+            
+            
+            <Label Text="Olá! este é o app do curso de desenvolvimento de sistemas" Style="{StaticResource textoCentralizado}"/>
+        
+        
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
