@@ -11,11 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Img\logo.png" />
+    <None Remove="Img\logo_branco.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Img\logo.png">
+    <EmbeddedResource Include="Img\logo_branco.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

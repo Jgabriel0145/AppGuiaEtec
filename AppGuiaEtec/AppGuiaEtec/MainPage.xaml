@@ -6,20 +6,20 @@
     <MasterDetailPage.Master>
 
         <ContentPage Title="Menu">
-            <Grid BackgroundColor="#121111" ColumnDefinitions="*" RowDefinitions="160, *, 160">
+            <Grid BackgroundColor="#F1F2F3" ColumnDefinitions="*" RowDefinitions="160, *, 160">
 
                 <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand" 
-                             BackgroundColor="#121111"
+                             BackgroundColor="#F1F2F3"
                              Padding="10"
                              Margin="10">
 
-                    <Image Source="logo.png" Aspect="AspectFit"/>
+                    <Image Source="logo_branco.png" Aspect="AspectFit" Margin="0,50,0,0"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Spacing="15"
-                             BackgroundColor="#121111"
+                             BackgroundColor="#F1F2F3"
                              Padding="10"
-                             Margin="10">
+                             Margin="10,50,10,0">
 
                     <Button Text="Inicial" Style="{StaticResource BotaoVermlho}" Clicked="Open_Inicial"/>
                     <Button Text="Primeiro Ano" Style="{StaticResource BotaoCinza}" Clicked="Open_Primeiro"/>
@@ -30,13 +30,6 @@
 
                 </StackLayout>
 
-                <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand"
-                             BackgroundColor="#121111"
-                             Padding="10"
-                             Margin="10">
-
-                    <Image Source="logo.png" Aspect="AspectFit"/>
-                </StackLayout>
 
             </Grid>
         </ContentPage>

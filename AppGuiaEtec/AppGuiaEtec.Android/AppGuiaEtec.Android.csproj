@@ -83,7 +83,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\AppGuiaEtec\AppGuiaEtec.csproj">
       <Project>{1D4BECB9-0B99-49A7-AEF6-8A6AC439FDCA}</Project>
@@ -91,7 +90,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo.png">
+    <AndroidResource Include="Resources\drawable\logo_branco.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
