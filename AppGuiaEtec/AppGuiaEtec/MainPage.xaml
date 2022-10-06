@@ -6,10 +6,10 @@
     <MasterDetailPage.Master>
 
         <ContentPage Title="Menu">
-            <Grid BackgroundColor="#F1F2F3" ColumnDefinitions="*" RowDefinitions="160, *, 160">
+            <Grid BackgroundColor="#121111" ColumnDefinitions="*" RowDefinitions="160, *, 160">
 
                 <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand" 
-                             BackgroundColor="#F1F2F3"
+                             BackgroundColor="#121111"
                              Padding="10"
                              Margin="10">
 
@@ -17,7 +17,7 @@
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Spacing="15"
-                             BackgroundColor="#F1F2F3"
+                             BackgroundColor="#121111"
                              Padding="10"
                              Margin="10,50,10,0">
 

@@ -8,7 +8,8 @@
         <StackLayout Padding="10">
             
             
-            <Label Text="Olá! este é o app do curso de desenvolvimento de sistemas" Style="{StaticResource textoCentralizado}"/>
+            <Label Text="Olá! Este é o app do curso de desenvolvimento de sistemas." TextColor="Black"
+                FontSize="Medium" />
         
         
         </StackLayout>
