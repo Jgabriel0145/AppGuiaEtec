@@ -6,18 +6,18 @@
     <MasterDetailPage.Master>
 
         <ContentPage Title="Menu">
-            <Grid BackgroundColor="#515A5A" ColumnDefinitions="*" RowDefinitions="160, *">
+            <Grid BackgroundColor="#121111" ColumnDefinitions="*" RowDefinitions="160, *, 160">
 
                 <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand" 
-                             BackgroundColor="#F3F2F0"
+                             BackgroundColor="#121111"
                              Padding="10"
                              Margin="10">
 
-                    <Image Source="logo_etec" Aspect="AspectFit"/>
+                    <Image Source="logo.png" Aspect="AspectFit"/>
                 </StackLayout>
 
-                <StackLayout Grid.Row="1" Spacing="10"
-                             BackgroundColor="#F3F2F0"
+                <StackLayout Grid.Row="1" Spacing="15"
+                             BackgroundColor="#121111"
                              Padding="10"
                              Margin="10">
 
@@ -29,8 +29,15 @@
                     <Button Text="Contato" Style="{StaticResource BotaoVermlho}" Clicked="Open_Contato"/>
 
                 </StackLayout>
-                
-                
+
+                <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand"
+                             BackgroundColor="#121111"
+                             Padding="10"
+                             Margin="10">
+
+                    <Image Source="logo.png" Aspect="AspectFit"/>
+                </StackLayout>
+
             </Grid>
         </ContentPage>
 

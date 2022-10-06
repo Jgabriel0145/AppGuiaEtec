@@ -29,9 +29,9 @@ namespace AppGuiaEtec
                 IsPresented = false;
             }
             
-            catch(Exception e)
+            catch(Exception ex)
             {
-                await DisplayAlert("Ops!", e.Message, "OK");
+                await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
 
@@ -43,9 +43,9 @@ namespace AppGuiaEtec
                 IsPresented = false;
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                await DisplayAlert("Ops!", e.Message, "OK");
+                await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
 
@@ -57,9 +57,9 @@ namespace AppGuiaEtec
                 IsPresented = false;
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                await DisplayAlert("Ops!", e.Message, "OK");
+                await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
 
@@ -71,9 +71,9 @@ namespace AppGuiaEtec
                 IsPresented = false;
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                await DisplayAlert("Ops!", e.Message, "OK");
+                await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
 
@@ -85,9 +85,9 @@ namespace AppGuiaEtec
                 IsPresented = false;
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                await DisplayAlert("Ops!", e.Message, "OK");
+                await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
 
@@ -99,9 +99,9 @@ namespace AppGuiaEtec
                 IsPresented = false;
             }
 
-            catch (Exception e)
+            catch (Exception ex)
             {
-                await DisplayAlert("Ops!", e.Message, "OK");
+                await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
     }
