@@ -5,7 +5,7 @@
              Title="Disciplina do Primeiro Ano">
     <ContentPage.Content>
         <StackLayout>
-            
+            <Label Text="Disciplinas do 1 ano" FontSize="20" Margin="5" TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

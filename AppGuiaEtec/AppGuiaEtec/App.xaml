@@ -22,6 +22,8 @@
             <Style TargetType="Label" x:Key="textoCentralizado">
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="10"/>
             </Style>
             
             
