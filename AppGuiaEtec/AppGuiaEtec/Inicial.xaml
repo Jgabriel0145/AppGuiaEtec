@@ -5,13 +5,7 @@
              Title="Desenvolvimento de Sistemas">
     <ContentPage.Content>
         <ScrollView>
-            <!--"<StackLayout Margin="20">
-                <Label Text="This text is green in light mode, and red in dark mode."
-               TextColor="{AppThemeBinding Light=Green, Dark=Red}" />
-                <Image Source="{AppThemeBinding Light=lightlogo.png, Dark=darklogo.png}" />
-            </StackLayout>-->
-
-            <StackLayout Padding="10">
+           <StackLayout Padding="10">
 
                 <Label Text="Nesse aplicativo feito por nós, você pode obter mais informações sobre o nosso curso!"
                        Style="{StaticResource textoCentralizado}"/>
@@ -19,8 +13,6 @@
                 <Label Text="Como o nosso curso é integrado ao Ensino Médio, ele possui a duração de 3 anos. O curso tem como objetivo construir softwares, codificar e depurar programas, desenvolver sistemas, projetar, implementar e utilizar bancos de dados, além da criação de sites."
                        Style="{StaticResource textoCentralizado}" />
                 
-                
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

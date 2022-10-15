@@ -16,5 +16,29 @@ namespace AppGuiaEtec.Views
         {
             InitializeComponent();
         }
+
+        private async void btn1_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Device.OpenUri(new Uri("tel:01436248585"));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+        }
+
+        private async void btn2_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Device.OpenUri(new Uri("tel:01436223566"));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+        }
     }
 }

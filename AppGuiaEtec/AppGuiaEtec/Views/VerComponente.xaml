@@ -1,12 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppGuiaEtec.Views.VerComponente">
+             x:Class="AppGuiaEtec.Views.VerComponente"
+             Title="Detalhes do Componente">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <ScrollView>
+                <StackLayout Padding="10">
+
+                    <Label Text="{Binding Nome}" FontAttributes="Bold"
+                           Margin="0,0,0,30" FontSize="Title"
+                           Style="{StaticResource textoComponentes}"/>
+
+                    <Label Text="Atribuições e Responsabilidades" 
+                           Style="{StaticResource textoComponentes}"
+                           FontSize="Large"/>
+
+                    <Label Text="{Binding AtribuicoesResponsabilidades}"
+                           Style="{StaticResource textoComponentes}"
+                           Margin="0,0,0,30" FontSize="Medium"/>
+
+                    <Label Text="Valores e Atitudes"
+                           Style="{StaticResource textoComponentes}"
+                           FontSize="Large"/>
+
+                    <Label Text="{Binding ValoresAtitudes}"
+                           Style="{StaticResource textoComponentes}"
+                           FontSize="Medium"/>
+
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

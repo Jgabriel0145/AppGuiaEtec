@@ -2,10 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGuiaEtec.Views.ComponentesPrimeiro"
-             Title="Disciplina do Primeiro Ano">
+             Title="Disciplinas do Primeiro Ano">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Disciplinas do 1 ano" FontSize="20" Margin="5" TextColor="Black"/>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+            <Label Text="Disciplinas do 1º Ano" FontSize="20" Margin="5" HorizontalOptions="Center"
+                           TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
+
+
+            <Button Text="Análise e Projeto de Sistemas" x:Name="btnAnalise" Clicked="btnAnalise_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Banco de Dados I" x:Name="btnBanco1" Clicked="btnBanco1_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Design Digital" x:Name="btnDesign" Clicked="btnDesign_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Fundamentos da Informática" x:Name="btnFundamentos" Clicked="btnFundamentos_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Programação Web I" x:Name="btnWeb1" Clicked="btnWeb1_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Técnicas de Programação e Algoritmos" x:Name="btnTecnicas" Clicked="btnTecnicas_Clicked" Style="{StaticResource BotaoCursos}"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

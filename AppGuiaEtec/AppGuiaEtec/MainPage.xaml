@@ -19,12 +19,12 @@
                              Padding="10"
                              Margin="10,50,10,0">
 
-                    <Button Text="Inicial" Style="{StaticResource BotaoVermlho}" Clicked="Open_Inicial"/>
+                    <Button Text="Inicial" Style="{StaticResource BotaoVermelho}" Clicked="Open_Inicial"/>
                     <Button Text="Primeiro Ano" Style="{StaticResource BotaoCinza}" Clicked="Open_Primeiro"/>
                     <Button Text="Segundo Ano" Style="{StaticResource BotaoCinza}" Clicked="Open_Segundo"/>
                     <Button Text="Terceiro Ano" Style="{StaticResource BotaoCinza}" Clicked="Open_Terceiro"/>
-                    <Button Text="Vestibulinho" Style="{StaticResource BotaoVermlho}" Clicked="Open_Vestibulinho"/>
-                    <Button Text="Contato" Style="{StaticResource BotaoVermlho}" Clicked="Open_Contato"/>
+                    <Button Text="Vestibulinho" Style="{StaticResource BotaoVermelho}" Clicked="Open_Vestibulinho"/>
+                    <Button Text="Contato" Style="{StaticResource BotaoVermelho}" Clicked="Open_Contato"/>
 
                 </StackLayout>
 

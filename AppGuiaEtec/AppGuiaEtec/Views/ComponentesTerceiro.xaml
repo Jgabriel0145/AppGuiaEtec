@@ -5,9 +5,16 @@
              Title="Disciplina do Terceiro Ano">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Disciplinas do 3º Ano" FontSize="20" Margin="5" HorizontalOptions="Center"
+                               TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
+
+            <Button Text="Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de Sistemas" x:Name="btnTCC" Style="{StaticResource BotaoCursos}" Clicked="btnTCC_Clicked"/>
+            <Button Text="Programação de Aplicativos Mobile II" x:Name="btnMobile2" Style="{StaticResource BotaoCursos}" Clicked="btnMobile2_Clicked"/>
+            <Button Text="Programação Web III" x:Name="btnWeb3" Style="{StaticResource BotaoCursos}" Clicked="btnWeb3_Clicked"/>
+            <Button Text="Qualidade e Teste de Software" x:Name="btnQualidade" Style="{StaticResource BotaoCursos}" Clicked="btnQualidade_Clicked"/>
+            <Button Text="Segurança de Sistemas da Informação" x:Name="btnSeguranca" Style="{StaticResource BotaoCursos}" Clicked="btnSeguranca_Clicked"/>
+            <Button Text="Sistemas Embarcados" x:Name="btnEmbarcados" Style="{StaticResource BotaoCursos}" Clicked="btnEmbarcados_Clicked"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

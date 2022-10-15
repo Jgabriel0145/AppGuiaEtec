@@ -5,7 +5,7 @@
     <Application.Resources>
         <ResourceDictionary>
 
-            <Style TargetType="Button" x:Key="BotaoVermlho">
+            <Style TargetType="Button" x:Key="BotaoVermelho">
                 <Setter Property="BackgroundColor" Value="#DE2626"/>
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="Padding" Value="5"/>
@@ -20,13 +20,21 @@
             </Style>
 
             <Style TargetType="Label" x:Key="textoCentralizado">
-                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}"/>
                 <Setter Property="FontSize" Value="Medium"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
                 <Setter Property="Margin" Value="10"/>
             </Style>
-            
-            
+
+            <Style TargetType="Button" x:Key="BotaoCursos">
+                
+            </Style>
+
+            <Style TargetType="Label" x:Key="textoComponentes">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=White}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
             
             
         </ResourceDictionary>

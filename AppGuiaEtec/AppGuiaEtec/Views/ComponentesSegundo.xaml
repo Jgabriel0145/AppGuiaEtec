@@ -5,9 +5,16 @@
              Title="Disciplina do Segundo Ano">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Disciplinas do 2º Ano" FontSize="20" Margin="5" HorizontalOptions="Center"
+                               TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
+
+            <Button Text="Banco de Dados II" x:Name="btnBanco2" Clicked="btnBanco2_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Desenvolvimento de Sistemas" x:Name="btnDS" Clicked="btnDS_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Ética e Cidadania Organizacional" x:Name="btnEtica" Clicked="btnEtica_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Programação de Aplicativos Mobile I" x:Name="btnMobile1" Clicked="btnMobile1_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Programação Web II" x:Name="btnWeb2" Clicked="btnWeb2_Clicked" Style="{StaticResource BotaoCursos}"/>
+            <Button Text="Sistemas Embarcados" x:Name="btnEmbarcados" Clicked="btnEmbarcados_Clicked" Style="{StaticResource BotaoCursos}"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
