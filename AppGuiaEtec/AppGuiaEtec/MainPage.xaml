@@ -6,13 +6,12 @@
     <MasterDetailPage.Master>
 
         <ContentPage Title="Menu">
-            <Grid ColumnDefinitions="*" RowDefinitions="160, *, 160">
+            <Grid ColumnDefinitions="*" RowDefinitions="160, *">
 
                 <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand"
-                             Padding="10"
-                             Margin="10">
+                             Padding="10">
 
-                    <Image Source="logo_branco.png" Aspect="AspectFit" Margin="0,50,0,0"/>
+                    <Image Source="{AppThemeBinding Dark=logo_tema_escuro.png, Light=etec.png}" Aspect="AspectFit" Margin="0,50,0,0"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Spacing="15"

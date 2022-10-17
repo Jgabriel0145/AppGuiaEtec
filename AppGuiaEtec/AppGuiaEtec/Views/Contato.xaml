@@ -5,12 +5,19 @@
              Title="Contato">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
-            
+
+            <Image Source="frente_escola.png"/>
+
             <Label Text="ETEC JOAQUIM FERREIRA DO AMARAL" FontSize="Title" FontAttributes="Bold"
-                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="{AppThemeBinding Dark=White, Light=Black}"/>
 
             <Label Text="R. Humaitá, 1090 - Centro, Jaú - SP, 17201-320"
-                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                   FontSize="Medium" TextColor="{AppThemeBinding Dark=White, Light=Black}"/>
+
+            <Label Text="E-mail: e070acad@cps.sp.gov.br" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand" TextColor="{AppThemeBinding Dark=White, Light=Black}"
+                   FontSize="Medium"/>
 
             <Button Text="(14) 3624-8585" Margin="10" Style="{StaticResource BotaoVermelho}"
                     x:Name="btn1" Clicked="btn1_Clicked"/>
@@ -18,8 +25,6 @@
             <Button Text="(14) 3622-3566" Margin="10" Style="{StaticResource BotaoVermelho}"
                     x:Name="btn2" Clicked="btn2_Clicked"/>
 
-            <Label Text="E-mail: e070acad@cps.sp.gov.br / e070dir@cps.sp.gov.br" HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
 
         </StackLayout>
     </ContentPage.Content>

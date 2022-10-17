@@ -12,7 +12,8 @@
 
                 <Label Text="Como o nosso curso é integrado ao Ensino Médio, ele possui a duração de 3 anos. O curso tem como objetivo construir softwares, codificar e depurar programas, desenvolver sistemas, projetar, implementar e utilizar bancos de dados, além da criação de sites."
                        Style="{StaticResource textoCentralizado}" />
-                
+
+                <Image Source="frente_escola.jpg" Aspect="AspectFit" Margin="0,50,0,0"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

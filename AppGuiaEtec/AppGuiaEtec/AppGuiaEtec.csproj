@@ -11,11 +11,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Img\etec.png" />
+    <None Remove="Img\frente_escola.jpg" />
     <None Remove="Img\logo_branco.png" />
+    <None Remove="Img\logo_tema_claro.png" />
+    <None Remove="Img\logo_tema_escuro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Img\etec.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\frente_escola.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_tema_claro.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Img\logo_branco.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_tema_escuro.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

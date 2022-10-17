@@ -7,9 +7,11 @@
         <StackLayout>
 
             <Label Text="FIQUE ATENTO ÀS DATAS, ACESSE O SITE ABAIXO"
-                   HorizontalTextAlignment="Center" FontAttributes="Bold" Margin="10" FontSize="Title"/>
+                   HorizontalTextAlignment="Center" FontAttributes="Bold" Margin="10" FontSize="Title"
+                   TextColor="{AppThemeBinding Dark=White, Light=Black}"/>
 
-            <Button Text="Inscreva-se" Style="{StaticResource BotaoVermelho}" x:Name="btnInscrever" Clicked="btnInscrever_Clicked"/>
+            <Button Text="Inscreva-se" Style="{StaticResource BotaoVermelho}" x:Name="btnInscrever" 
+                    Clicked="btnInscrever_Clicked" Margin="10"/>
 
         </StackLayout>
     </ContentPage.Content>
