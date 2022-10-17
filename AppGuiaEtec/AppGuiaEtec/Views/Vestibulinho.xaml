@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text="FIQUE ATENTO ÀS DATAS, ACESSE O SITE ABAIXO"
+            <Label Text="FIQUE ATENTO ÀS DATAS, ACESSE O SITE ABAIXO:"
                    HorizontalTextAlignment="Center" FontAttributes="Bold" Margin="10" FontSize="Title"
                    TextColor="{AppThemeBinding Dark=White, Light=Black}"/>
 
