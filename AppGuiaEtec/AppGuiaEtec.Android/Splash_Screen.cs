@@ -12,7 +12,7 @@ using System.Text;
 namespace AppGuiaEtec.Droid
 {
     [Activity(Theme = "@style/MyTheme.Splash", MainLauncher = true,
-        NoHistory = true, Label = "AppGuiaEtec")]
+        NoHistory = true, Label = "Curso DS Etec")]
     public class Splash_Screen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
