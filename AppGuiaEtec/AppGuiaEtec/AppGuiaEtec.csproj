@@ -16,6 +16,7 @@
     <None Remove="Img\logo_branco.png" />
     <None Remove="Img\logo_tema_claro.png" />
     <None Remove="Img\logo_tema_escuro.png" />
+    <None Remove="Img\splash_screen_etec.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,6 +36,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Img\logo_tema_escuro.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\splash_screen_etec.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

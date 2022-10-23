@@ -4,7 +4,7 @@
              x:Class="AppGuiaEtec.Views.ComponentesSegundo"
              Title="Disciplina do Segundo Ano">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
             <Label Text="Disciplinas do 2º Ano" FontSize="20" Margin="5" HorizontalOptions="Center"
                                TextColor="{AppThemeBinding Light=Black, Dark=White}"/>
 
