@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <None Remove="Img\etec.png" />
+    <None Remove="Img\foto_ds_alunos.jpeg" />
     <None Remove="Img\frente_escola.jpg" />
     <None Remove="Img\logo_branco.png" />
     <None Remove="Img\logo_tema_claro.png" />
@@ -21,6 +22,9 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Img\etec.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\foto_ds_alunos.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Img\frente_escola.jpg">
